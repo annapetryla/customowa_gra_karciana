@@ -1,0 +1,34 @@
+Mateusz Mulka
+- podstawowe klasy 
+- pierwsza wersja funkcji losujacej karty
+- poprawa funkcji okreslajacej koniec gry
+- stworzenie mozliwosci ponownego zagrania w gre po przejsicu do menu (reset statystyk) oraz dodanie opcji restart
+- optymalizacja wygladu WPF - rozmiar okien, czcionki itp 
+- customowy cursor 
+- ustawienie i edycja grafik, niektore sa pobrane z internetu, niektore pobrane i edytowane
+- mechanika mulliganowania (pierwsza wersja - dla kart hardcodowanych) dla gracza oraz dla komputera z prostą "animacją"  + komunikat o mulliganie ze strony pc
+- wyłączenie muzyki przy wyjściu z gry do menu głównego 
+- instrukcja dla gracza
+
+Oleh Tkachenko
+- Struktura pliku XML (cards_info.xml)
+- Podłączanie klasy *Gracz* do bazy danych
+- Komentowanie kodu
+- Strukturyzowanie kodu
+- Funkcja odczytu danych z pliku *cards_info.xml* i konwersji danych do klasy *Card*(Deck_Generator)
+- Optymalizacja kodu(Usuwanie duplikatów struktur, tworzenie funkcji (MulliganAsync, Shuffle)) 
+
+Anna Petryla 
+-utworzenie mechanizmu podziału kart na talie gracza oraz komputera
+-utworzenie mechanizmu zliczania punktów oraz wyświetlania inforamcji o wygranym w danej turze
+-poprawa funkcji losujacej karty, dodanie mechanizmu pozwalającego losować obrazki należące do losowanych
+kart
+-utworzenie mechanizmu wyświetlania oraz dekremenatcji kryształów many
+-utworzenie prototypów klas WPF
+	->utworzenie klasy Okna Głównego (przyciski, podświetlanie przycisków)
+	->utworzenie klasy Okna Zasad
+	->utworzenie obiektu InputDialog
+	->obsługa wyjścia
+	->utworzenie obiektu informującego o końcu gry
+-uzupełnienie prototypów w elementy tj.: przyciski, labelki, pola Image
+-dodanie sterownika obsługującego muzykę
